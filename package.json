@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.7.1",
+    "@vaadin/router": "^1.7.4",
+    "gh-pages": "^3.2.3",
+    "lit": "^2.0.2",
+    "pwa-helpers": "^0.9.1",
+    "redux": "^4.1.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.28"
+  },
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch --app-index index.html",
+    "build": "rollup -c --environment INCLUDE_DEPS,BUILD:production"
+  }
+}
