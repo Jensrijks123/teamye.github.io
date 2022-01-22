@@ -1,4 +1,4 @@
-import '@vaadin/router';
+
 import './../node_modules/@vaadin/router/dist/vaadin-router.js';
 import './service/AppRouting.js';
 
