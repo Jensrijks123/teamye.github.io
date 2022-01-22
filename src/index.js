@@ -1,5 +1,4 @@
-
-import './../node_modules/@vaadin/router/dist/vaadin-router.js';
+import '@vaadin/router';
 import './service/AppRouting.js';
 
 import './view/components/page-loader.js';
